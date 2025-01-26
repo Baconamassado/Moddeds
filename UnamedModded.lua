@@ -1,7 +1,7 @@
 local library = {
     Flags = {},
     SectionsOpened = false,
-    Theme = "Dark"
+    Theme = "Hell Menu"
 }
 library.flags = library.Flags
 library.theme = library.Theme
@@ -117,9 +117,9 @@ local Themes = {
         ItemUIStroke = Color3.fromRGB(35, 10, 10),
         TabFrame = Color3.fromRGB(30, 0, 0),
         SectionFrame = Color3.fromRGB(15, 15, 15),
-        TabText = Color3.fromRGB(255, 60, 60), 
+        TabText = Color3.fromRGB(255, 60, 60),
         ItemText = Color3.fromRGB(230, 50, 50),
-        SectionText = Color3.fromRGB(240, 50, 50)
+        SectionText = Color3.fromRGB(240, 50, 50),
         ItemUIStrokeSelected = Color3.fromRGB(255, 0, 0),
         SelectedTabFrame = Color3.fromRGB(0, 0, 0),
         ItemFrame = Color3.fromRGB(20, 20, 20),
@@ -131,9 +131,9 @@ local Themes = {
         Shadow = Color3.fromRGB(10, 10, 10),
         SliderOuter = Color3.fromRGB(30, 10, 10),
         SliderInner = Color3.fromRGB(255, 50, 50),
-        TabUIStroke = Color3.fromRGB(50, 0, 0), 
-        InputPlaceHolder = Color3.fromRGB(80, 20, 20), 
-        ToggleOuter = Color3.fromRGB(25, 0, 0)
+        TabUIStroke = Color3.fromRGB(50, 0, 0),
+        InputPlaceHolder = Color3.fromRGB(80, 20, 20),
+        ToggleOuter = Color3.fromRGB(25, 0, 0),
         ToggleOuterEnabled = Color3.fromRGB(50, 10, 10),
         ToggleOuterUIStroke = Color3.fromRGB(70, 15, 15),
         ToggleOuterUIStrokeEnabled = Color3.fromRGB(255, 40, 40),
@@ -142,7 +142,7 @@ local Themes = {
         ContainerHolder = Color3.fromRGB(20, 20, 20),
         HighlightUIStroke = Color3.fromRGB(70, 15, 15),
         Highlight = Color3.fromRGB(255, 30, 30)
-    }    
+    } 
 }
 
 local HttpService = game:GetService("HttpService")
